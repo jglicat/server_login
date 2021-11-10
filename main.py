@@ -59,3 +59,4 @@ if __name__ == '__main__':
     click_botton('登录', "//input[@id='btn_log']", driver)
     send_text('otp', "//input[@id='dyncodetext']", driver, topt.now())
     click_botton('登录', "//input[@id='btn_log']", driver)
+    input()
